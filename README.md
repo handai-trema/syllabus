@@ -11,10 +11,12 @@
 
 * [GitHub](https://github.com/)のアカウントを作る
   * 課題提出は GitHub で行います。事前に[GitHubのアカウントを作って](https://help.github.com/articles/signing-up-for-a-new-github-account/)おいてください。
-* VMをインストールする (初心者向け)
-  * 課題用の環境をVMイメージで配布しています
-* Rubyのインストール (上級者向け)
-  * Rubyバージョン2.0以上をインストールしておいてください
+* [Virtual Box](https://www.virtualbox.org/)をインストールする
+* 課題用の[VMイメージ](http://www.ane.cmc.osaka-u.ac.jp/~hasegawa/mdwiki/lectures/2015-ein2/ensyuuVB1.ova)をVirtual Boxにインポートする
+  1. VirtualBox のメニュー→ファイル→仮想アプライアンスのインポート→ensyuuVB1.ovaを選択→次へ→インポート
+  2. インポートした VM イメージを起動。ユーザ名、パスワードは `ensyuu2`
+
+なおRubyやLinuxに慣れていて開発環境をすでに持っている人は、VMを使わずに自前の開発環境を使ってもらってもかまいません。
 
 
 ## レポート課題
