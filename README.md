@@ -22,9 +22,16 @@
 1. [hello_trema](https://classroom.github.com/assignment-invitations/55c9d21a0ef0b3fb7378cb0b0b66bc74)
 
 
+## 必須の読み物
+
+* [TremaでOpenFlowプログラミング](http://yasuhito.github.io/trema-book/)
+
+本演習で使うテキストで、フリーで読めます。技術評論社から発売中の[OpenFlow実践入門](http://www.amazon.co.jp/dp/4774154652/)の続編です。演習ごとに読むべき章は連絡します。
+
+
 ## 推奨する読み物
 
-演習では Git と GitHub をたくさん使うので、あらかじめ Git に慣れておいてください。なお Git とはバージョン管理ツールの一種です。GitHub は Git を使ってソースコードを公開できるサービスです。
+演習では Git と GitHub をたくさん使うので、あらかじめ慣れておいてください。なお Git とはバージョン管理ツールの一種です。GitHub は Git を使ってソースコードを公開できるサービスの一つです。
 
 * [サルでもわかるGit入門](http://www.backlog.jp/git-guide/)
 * [いつやるの？Git入門 v1.1.0](http://www.slideshare.net/matsukaz/git-28304397)
