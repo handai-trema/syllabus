@@ -17,7 +17,7 @@
   * Rubyバージョン2.0以上をインストールしておいてください
 
 
-## 課題
+## レポート課題
 
 1. [hello_trema](https://classroom.github.com/assignment-invitations/55c9d21a0ef0b3fb7378cb0b0b66bc74)
 
