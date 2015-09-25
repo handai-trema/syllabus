@@ -20,10 +20,14 @@
 なおRubyやLinuxに慣れていて開発環境をすでに持っている人は、VMを使わずに自前の開発環境を使ってもらってもかまいません。
 
 
-## レポート課題
+## 課題
 
-1. [hello_trema](https://classroom.github.com/assignment-invitations/e11e2fa9aac71006cee9a4cd6850b301)
+### 第1回 (10/7)
 
+1. [self_intro](https://github.com/handai-trema/self_intro)
+   GitやGitHubの練習として自己紹介を書いてコミットしよう
+2. [hello_trema](https://classroom.github.com/assignment-invitations/e11e2fa9aac71006cee9a4cd6850b301)
+   Tremaで簡単なOpenFlowコントローラを書こう
 
 ## 必須の読み物
 
