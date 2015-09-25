@@ -17,7 +17,7 @@
 * [GitHub](https://github.com/)のアカウントを作る
   * 課題提出は GitHub で行います。事前に[GitHubのアカウントを作って](https://help.github.com/articles/signing-up-for-a-new-github-account/)おいてください。
 * [Virtual Box](https://www.virtualbox.org/)をインストールする
-* 課題用の[VMイメージ](http://www.ane.cmc.osaka-u.ac.jp/~hasegawa/mdwiki/lectures/2015-ein2/ensyuuVB1.ova)をVirtual Boxにインポートする
+* 課題用の[VMイメージ](http://www.ane.cmc.osaka-u.ac.jp/~hasegawa/mdwiki/mdwiki.html#!lectures/2015-ein2/ensyuuVB1.ova)をVirtual Boxにインポートする
   1. VirtualBox のメニュー→ファイル→仮想アプライアンスのインポート→ensyuuVB1.ovaを選択→次へ→インポート
   2. インポートした VM イメージを起動。ユーザ名、パスワードは `ensyuu2`
 
