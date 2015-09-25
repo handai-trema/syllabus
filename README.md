@@ -1,6 +1,8 @@
 # 情報ネットワーク学演習II
 
 * **インストラクタ:** 高宮 安仁 (たかみや やすひと), [yasuhito@gmail.com](mailto:yasuhito@gmail.com)
+* **TA**
+  * 石野 正典 (いしの まさのり), [m-ishino@ist.osaka-u.ac.jp](mailto:m-ishino@ist.osaka-u.ac.jp)
 * [授業のページ](http://www.ane.cmc.osaka-u.ac.jp/~hasegawa/mdwiki/mdwiki.html#!lectures/ein2-2015.md)
 * **Need help?**
   * [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/handai-trema/syllabus?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
