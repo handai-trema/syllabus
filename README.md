@@ -38,6 +38,9 @@
 1. [switch_monitor](https://classroom.github.com/assignment-invitations/46b3753e25bbc74d210ac9007881b978)
    複数スイッチをコントローラにつなげてみよう
 
+2. [cbench](https://classroom.github.com/assignment-invitations/4dd0b372d5813f33997dbe3b0af5919b)
+   プロファイラでボトルネックを発見しよう
+
 ## 必須の読み物
 
 * [TremaでOpenFlowプログラミング](http://yasuhito.github.io/trema-book/)
