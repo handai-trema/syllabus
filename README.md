@@ -33,6 +33,11 @@
 2. [hello_trema](https://classroom.github.com/assignment-invitations/e11e2fa9aac71006cee9a4cd6850b301)
    Tremaで簡単なOpenFlowコントローラを書こう
 
+### 第2回 (10/14)
+
+1. [switch_monitor](https://classroom.github.com/assignment-invitations/46b3753e25bbc74d210ac9007881b978)
+   複数スイッチをコントローラにつなげてみよう
+
 ## 必須の読み物
 
 * [TremaでOpenFlowプログラミング](http://yasuhito.github.io/trema-book/)
