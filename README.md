@@ -30,8 +30,10 @@
 
 1. [self_intro](https://github.com/handai-trema/self_intro)
    GitやGitHubの練習として自己紹介を書いてコミットしよう
-2. [hello_trema](https://classroom.github.com/assignment-invitations/e11e2fa9aac71006cee9a4cd6850b301)
+2. [hello_trema](https://classroom.github.com/assignment-invitations/e04e7b15dd77d92c4533c44a7b85ab68)
    Tremaで簡単なOpenFlowコントローラを書こう
+
+※ もし hello_trema をクリックして変な名前のリポジトリ (hello_trema-6d259216-8707-462e-b8ff-3f0304189ad8-yasuhito みたいなの) や空っぽのリポジトリができる場合には、[handai-trema/hello_trema](https://github.com/handai-trema/hello_trema) の右上の Fork をクリックしてください。
 
 ### 第2回 (10/14)
 
