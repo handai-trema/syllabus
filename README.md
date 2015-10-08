@@ -28,16 +28,16 @@
 
 ### 第1回 (10/7)
 
-1. [self_intro](https://github.com/handai-trema/self_intro)
-   GitやGitHubの練習として自己紹介を書いてコミットしよう
-2. [handai-trema/hello_trema](https://github.com/handai-trema/hello_trema)
-   Tremaで簡単なOpenFlowコントローラを書こう
+1. [self_intro](https://github.com/handai-trema/self_intro) GitやGitHubの練習として自己紹介を書いてコミットしよう
+   - [Git&GitHub入門 スライド](http://handai-trema.github.io/deck/git.html#1)
 
 ### 第2回 (10/14)
 
-1. [switch_monitor](https://classroom.github.com/assignment-invitations/46b3753e25bbc74d210ac9007881b978)
+1. [handai-trema/hello_trema](https://github.com/handai-trema/hello_trema)
+   Tremaで簡単なOpenFlowコントローラを書こう
+2. [switch_monitor](https://classroom.github.com/assignment-invitations/46b3753e25bbc74d210ac9007881b978)
    複数スイッチをコントローラにつなげてみよう
-2. [cbench](https://classroom.github.com/assignment-invitations/4dd0b372d5813f33997dbe3b0af5919b)
+3. [cbench](https://classroom.github.com/assignment-invitations/4dd0b372d5813f33997dbe3b0af5919b)
    Packet In と Flow Mod メッセージを使ってみよう
 
 ## 必須の読み物
