@@ -28,8 +28,11 @@
 
 ### 第1回 (10/7)
 
-1. [self_intro](https://github.com/handai-trema/self_intro) GitやGitHubの練習として自己紹介を書いてコミットしよう
-   - [Git&GitHub入門 スライド](http://handai-trema.github.io/deck/git.html#1)
+1. SDN/OpenFlow入門
+   - [スライド](http://handai-trema.github.io/deck/sdn_intro.pdf)
+2. Git&GitHub入門: GitやGitHubの練習として自己紹介を書いてコミットしよう
+   - [スライド](http://handai-trema.github.io/deck/git.html#1)
+   - [演習用リポジトリ](https://github.com/handai-trema/self_intro)
 
 ### 第2回 (10/14)
 
