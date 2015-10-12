@@ -38,9 +38,7 @@
 
 1. [handai-trema/hello_trema](https://github.com/handai-trema/hello_trema)
    Tremaで簡単なOpenFlowコントローラを書こう
-2. [switch_monitor](https://classroom.github.com/assignment-invitations/46b3753e25bbc74d210ac9007881b978)
-   複数スイッチをコントローラにつなげてみよう
-3. [cbench](https://classroom.github.com/assignment-invitations/4dd0b372d5813f33997dbe3b0af5919b)
+2. [cbench](https://classroom.github.com/assignment-invitations/4dd0b372d5813f33997dbe3b0af5919b)
    Packet In と Flow Mod メッセージを使ってみよう
 
 ## 必須の読み物
