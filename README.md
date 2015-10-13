@@ -2,7 +2,8 @@
 
 授業の[公式ページ](http://www.ane.cmc.osaka-u.ac.jp/~hasegawa/mdwiki/mdwiki.html#!lectures/ein2-2015.md)も読んでください。
 
-* **インストラクタ:** 高宮 安仁 (たかみや やすひと), [yasuhito@gmail.com](mailto:yasuhito@gmail.com)
+* **インストラクタ:**
+  * 高宮 安仁 (たかみや やすひと), [yasuhito@gmail.com](mailto:yasuhito@gmail.com)
 * **TA**
   * 石野 正典 (いしの まさのり), [m-ishino@ist.osaka-u.ac.jp](mailto:m-ishino@ist.osaka-u.ac.jp)
   * 豊永 慎也 (とよなが しんや), [s-toyonaga@ist.osaka-u.ac.jp](mailto:s-toyonaga@ist.osaka-u.ac.jp)
