@@ -37,7 +37,7 @@
 
 ### 第2回 (10/14)
 
-1. [handai-trema/hello_trema](https://github.com/handai-trema/hello_trema)
+1. [hello_trema](https://github.com/handai-trema/hello_trema)
    Tremaで簡単なOpenFlowコントローラを書こう
 2. [cbench](https://classroom.github.com/assignment-invitations/4dd0b372d5813f33997dbe3b0af5919b)
    Packet In と Flow Mod メッセージを使ってみよう
