@@ -37,10 +37,12 @@
 
 ### 第2回 (10/14)
 
-1. [hello_trema](https://github.com/handai-trema/hello_trema)
-   Tremaで簡単なOpenFlowコントローラを書こう
-2. [cbench](https://classroom.github.com/assignment-invitations/4dd0b372d5813f33997dbe3b0af5919b)
-   Packet In と Flow Mod メッセージを使ってみよう
+1. Hello, Trema: Tremaで簡単なOpenFlowコントローラを書こう
+   - [スライド](https://github.com/handai-trema/deck/blob/develop/hello_trema.pdf)
+   - [演習用リポジトリ](https://github.com/handai-trema/hello_trema)
+2. cbench: Packet In と Flow Mod メッセージを使ってみよう
+   - [スライド](https://github.com/handai-trema/deck/blob/develop/cbench.pdf)
+   - [演習用リポジトリ](https://classroom.github.com/assignment-invitations/4dd0b372d5813f33997dbe3b0af5919b)
 
 ## 必須の読み物
 
