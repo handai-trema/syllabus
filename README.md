@@ -44,6 +44,11 @@
    - [スライド](https://github.com/handai-trema/deck/blob/develop/cbench.pdf)
    - [演習用リポジトリ](https://classroom.github.com/assignment-invitations/4dd0b372d5813f33997dbe3b0af5919b)
 
+### 第3回 (10/21)
+
+ 1. L2スイッチを作ろう
+   - [演習用リポジトリ](https://classroom.github.com/assignment-invitations/df8da63f5440cbc0286f94b227da9fa3)
+
 ## 必須の読み物
 
 * [TremaでOpenFlowプログラミング](http://yasuhito.github.io/trema-book/)
