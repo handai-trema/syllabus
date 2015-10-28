@@ -55,6 +55,7 @@
 1. OpenFlow1.3でL2スイッチを作ろう
    - [スライド](https://github.com/handai-trema/deck/blob/develop/learning_switch13.pdf)
    - 演習用リポジトリは前回のをそのまま使ってください
+   - learning_switch13.rb の優先度にバグがあります。[こちら](https://github.com/trema/learning_switch/blob/develop/lib/learning_switch13.rb)を使ってください。
 
 
 ## 必須の読み物
