@@ -50,6 +50,11 @@
    - [スライド](https://github.com/handai-trema/deck/blob/develop/learning_switch.pdf)
    - [演習用リポジトリ](https://classroom.github.com/assignment-invitations/df8da63f5440cbc0286f94b227da9fa3)
 
+### 第4回 (10/28)
+
+1. OpenFlow1.3でL2スイッチを作ろう
+   - [スライド](https://github.com/handai-trema/deck/blob/develop/learning_switch13.pdf)
+   - 演習用リポジトリは前回のをそのまま使ってください
 
 
 ## 必須の読み物
