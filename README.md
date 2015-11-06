@@ -56,6 +56,12 @@
    - [スライド](https://github.com/handai-trema/deck/blob/develop/learning_switch13.pdf)
    - 配布した learning_switch13.rb いくつかバグがありました。[こちら](https://github.com/trema/learning_switch/blob/develop/lib/learning_switch13.rb)を使ってください。
 
+### 第5回 (11/11)
+
+1. グループ課題: OpenFlow1.3でルータを作ろう
+   - [テキスト 前編](http://yasuhito.github.io/trema-book/#router_part1)
+   - [テキスト 後編](http://yasuhito.github.io/trema-book/#router_part2)
+
 
 ## 必須の読み物
 
