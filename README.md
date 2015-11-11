@@ -59,9 +59,9 @@
 ### 第5回 (11/11)
 
 1. グループ課題: OpenFlow1.3でルータを作ろう
+   - [スライド](https://github.com/handai-trema/deck/blob/develop/simple_router.pdf)
    - [テキスト 前編](http://yasuhito.github.io/trema-book/#router_part1)
    - [テキスト 後編](http://yasuhito.github.io/trema-book/#router_part2)
-   - [演習用リポジトリ(まだクリックしないで!)](https://classroom.github.com/group-assignment-invitations/18cf775b61c35cc99a5062ea8bba4aa9)
 
 今回の課題には新しい Open vSwitch が必要です。次の手順で Open vSwitch をアップグレードしてください。
 
