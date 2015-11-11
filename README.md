@@ -62,6 +62,13 @@
    - [テキスト 前編](http://yasuhito.github.io/trema-book/#router_part1)
    - [テキスト 後編](http://yasuhito.github.io/trema-book/#router_part2)
 
+今回の課題には新しい Open vSwitch が必要です。次の手順で Open vSwitch をアップグレードしてください。
+
+```
+$ sudo add-apt-repository ppa:suawekk/openvswitch
+$ sudo apt-get update
+$ sudo apt-get upgrade
+```
 
 ## 必須の読み物
 
