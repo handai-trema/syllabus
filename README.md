@@ -85,24 +85,24 @@ $ bundle update
 ```
 $ sudo ovs-ofctl dump-flows br0x1 --protocols=OpenFlow13
 OFPST_FLOW reply (OF1.3) (xid=0x2):
- cookie=0x0, duration=4.324s, table=0, n_packets=8, n_bytes=668, priority=0 actions=goto_table:1
- cookie=0x0, duration=4.324s, table=1, n_packets=0, n_bytes=0, priority=0,arp actions=goto_table:2
- cookie=0x0, duration=4.324s, table=1, n_packets=0, n_bytes=0, priority=0,ip actions=goto_table:3
- cookie=0x0, duration=4.317s, table=2, n_packets=0, n_bytes=0, priority=0,arp,in_port=1,arp_tpa=192.168.1.1,arp_op=1 actions=CONTROLLER:65535,move:NXM_OF_ETH_SRC[]->NXM_OF_ETH_DST[],set_field:01:01:01:01:01:01->eth_src,set_field:2->arp_op,move:NXM_NX_ARP_SHA[]->NXM_NX_ARP_THA[],move:NXM_OF_ARP_SPA[]->NXM_OF_ARP_TPA[],set_field:01:01:01:01:01:01->arp_sha,set_field:192.168.1.1->arp_spa,load:0xffff->OXM_OF_IN_PORT[],load:0x1->NXM_NX_REG1[0..15],goto_table:6
- cookie=0x0, duration=4.307s, table=2, n_packets=0, n_bytes=0, priority=0,arp,in_port=1,arp_tpa=192.168.1.1,arp_op=2 actions=CONTROLLER:65535
- cookie=0x0, duration=4.274s, table=2, n_packets=0, n_bytes=0, priority=0,arp,in_port=2,arp_tpa=192.168.2.1,arp_op=1 actions=CONTROLLER:65535,move:NXM_OF_ETH_SRC[]->NXM_OF_ETH_DST[],set_field:02:02:02:02:02:02->eth_src,set_field:2->arp_op,move:NXM_NX_ARP_SHA[]->NXM_NX_ARP_THA[],move:NXM_OF_ARP_SPA[]->NXM_OF_ARP_TPA[],set_field:02:02:02:02:02:02->arp_sha,set_field:192.168.2.1->arp_spa,load:0xffff->OXM_OF_IN_PORT[],load:0x2->NXM_NX_REG1[0..15],goto_table:6
- cookie=0x0, duration=4.264s, table=2, n_packets=0, n_bytes=0, priority=0,arp,in_port=2,arp_tpa=192.168.2.1,arp_op=2 actions=CONTROLLER:65535
- cookie=0x0, duration=4.296s, table=2, n_packets=0, n_bytes=0, priority=0,arp,reg1=0x1 actions=set_field:01:01:01:01:01:01->eth_src,set_field:01:01:01:01:01:01->arp_sha,set_field:192.168.1.1->arp_spa,goto_table:6
- cookie=0x0, duration=4.254s, table=2, n_packets=0, n_bytes=0, priority=0,arp,reg1=0x2 actions=set_field:02:02:02:02:02:02->eth_src,set_field:02:02:02:02:02:02->arp_sha,set_field:192.168.2.1->arp_spa,goto_table:6
- cookie=0x0, duration=4.235s, table=3, n_packets=0, n_bytes=0, priority=40024,ip,nw_dst=192.168.1.0/24 actions=move:NXM_OF_IP_DST[]->NXM_NX_REG0[],goto_table:4
- cookie=0x0, duration=4.227s, table=3, n_packets=0, n_bytes=0, priority=40024,ip,nw_dst=192.168.2.0/24 actions=move:NXM_OF_IP_DST[]->NXM_NX_REG0[],goto_table:4
- cookie=0x0, duration=4.245s, table=3, n_packets=0, n_bytes=0, priority=0,ip actions=load:0xc0a80102->NXM_NX_REG0[],goto_table:4
- cookie=0x0, duration=4.218s, table=4, n_packets=0, n_bytes=0, priority=0,reg0=0xc0a80100/0xffffff00 actions=load:0x1->NXM_NX_REG1[0..15],set_field:01:01:01:01:01:01->eth_src,goto_table:5
- cookie=0x0, duration=4.210s, table=4, n_packets=0, n_bytes=0, priority=0,reg0=0xc0a80200/0xffffff00 actions=load:0x2->NXM_NX_REG1[0..15],set_field:02:02:02:02:02:02->eth_src,goto_table:5
- cookie=0x0, duration=4.179s, table=5, n_packets=0, n_bytes=0, priority=2,ip,reg0=0xc0a80101 actions=set_field:01:01:01:01:01:01->eth_dst,goto_table:6
- cookie=0x0, duration=4.172s, table=5, n_packets=0, n_bytes=0, priority=2,ip,reg0=0xc0a80201 actions=set_field:02:02:02:02:02:02->eth_dst,goto_table:6
- cookie=0x0, duration=4.166s, table=5, n_packets=0, n_bytes=0, priority=1,ip actions=CONTROLLER:65535
- cookie=0x0, duration=4.161s, table=6, n_packets=0, n_bytes=0, priority=0 actions=output:NXM_NX_REG1[]
+ cookie=0x0, duration=12.684s, table=0, n_packets=11, n_bytes=858, priority=0 actions=goto_table:1
+ cookie=0x0, duration=12.684s, table=1, n_packets=0, n_bytes=0, priority=0,arp actions=goto_table:2
+ cookie=0x0, duration=12.684s, table=1, n_packets=0, n_bytes=0, priority=0,ip actions=goto_table:3
+ cookie=0x0, duration=12.674s, table=2, n_packets=0, n_bytes=0, priority=0,arp,in_port=1,arp_tpa=192.168.1.1,arp_op=1 actions=CONTROLLER:65535,move:NXM_OF_ETH_SRC[]->NXM_OF_ETH_DST[],set_field:01:01:01:01:01:01->eth_src,set_field:2->arp_op,move:NXM_NX_ARP_SHA[]->NXM_NX_ARP_THA[],move:NXM_OF_ARP_SPA[]->NXM_OF_ARP_TPA[],set_field:01:01:01:01:01:01->arp_sha,set_field:192.168.1.1->arp_spa,load:0xffff->OXM_OF_IN_PORT[],load:0x1->NXM_NX_REG1[],goto_table:6
+ cookie=0x0, duration=12.665s, table=2, n_packets=0, n_bytes=0, priority=0,arp,in_port=1,arp_tpa=192.168.1.1,arp_op=2 actions=CONTROLLER:65535
+ cookie=0x0, duration=12.632s, table=2, n_packets=0, n_bytes=0, priority=0,arp,in_port=2,arp_tpa=192.168.2.1,arp_op=1 actions=CONTROLLER:65535,move:NXM_OF_ETH_SRC[]->NXM_OF_ETH_DST[],set_field:02:02:02:02:02:02->eth_src,set_field:2->arp_op,move:NXM_NX_ARP_SHA[]->NXM_NX_ARP_THA[],move:NXM_OF_ARP_SPA[]->NXM_OF_ARP_TPA[],set_field:02:02:02:02:02:02->arp_sha,set_field:192.168.2.1->arp_spa,load:0xffff->OXM_OF_IN_PORT[],load:0x2->NXM_NX_REG1[],goto_table:6
+ cookie=0x0, duration=12.623s, table=2, n_packets=0, n_bytes=0, priority=0,arp,in_port=2,arp_tpa=192.168.2.1,arp_op=2 actions=CONTROLLER:65535
+ cookie=0x0, duration=12.654s, table=2, n_packets=0, n_bytes=0, priority=0,arp,reg1=0x1 actions=set_field:01:01:01:01:01:01->eth_src,set_field:01:01:01:01:01:01->arp_sha,set_field:192.168.1.1->arp_spa,goto_table:6
+ cookie=0x0, duration=12.612s, table=2, n_packets=0, n_bytes=0, priority=0,arp,reg1=0x2 actions=set_field:02:02:02:02:02:02->eth_src,set_field:02:02:02:02:02:02->arp_sha,set_field:192.168.2.1->arp_spa,goto_table:6
+ cookie=0x0, duration=12.594s, table=3, n_packets=0, n_bytes=0, priority=40024,ip,nw_dst=192.168.1.0/24 actions=move:NXM_OF_IP_DST[]->NXM_NX_REG0[],goto_table:4
+ cookie=0x0, duration=12.585s, table=3, n_packets=0, n_bytes=0, priority=40024,ip,nw_dst=192.168.2.0/24 actions=move:NXM_OF_IP_DST[]->NXM_NX_REG0[],goto_table:4
+ cookie=0x0, duration=12.603s, table=3, n_packets=0, n_bytes=0, priority=0,ip actions=load:0xc0a80102->NXM_NX_REG0[],goto_table:4
+ cookie=0x0, duration=12.577s, table=4, n_packets=0, n_bytes=0, priority=0,reg0=0xc0a80100/0xffffff00 actions=load:0x1->NXM_NX_REG1[],set_field:01:01:01:01:01:01->eth_src,goto_table:5
+ cookie=0x0, duration=12.569s, table=4, n_packets=0, n_bytes=0, priority=0,reg0=0xc0a80200/0xffffff00 actions=load:0x2->NXM_NX_REG1[],set_field:02:02:02:02:02:02->eth_src,goto_table:5
+ cookie=0x0, duration=12.538s, table=5, n_packets=0, n_bytes=0, priority=2,ip,reg0=0xc0a80101 actions=set_field:01:01:01:01:01:01->eth_dst,goto_table:6
+ cookie=0x0, duration=12.530s, table=5, n_packets=0, n_bytes=0, priority=2,ip,reg0=0xc0a80201 actions=set_field:02:02:02:02:02:02->eth_dst,goto_table:6
+ cookie=0x0, duration=12.525s, table=5, n_packets=0, n_bytes=0, priority=1,ip actions=CONTROLLER:65535
+ cookie=0x0, duration=12.520s, table=6, n_packets=0, n_bytes=0, priority=0 actions=output:NXM_NX_REG1[]
 ```
 
 ## 必須の読み物
