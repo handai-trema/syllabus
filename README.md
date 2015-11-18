@@ -74,6 +74,7 @@ $ sudo apt-get upgrade
 ### 第6回 (11/18)
 
 1. グループ課題: ルータをマルチプルテーブルで実装しよう
+   - [スライド](https://github.com/handai-trema/deck/blob/develop/simple_router2.pdf)
 
 今回の課題には新しいTremaが必要です。次の手順でTremaをアップデートしてください。
 
