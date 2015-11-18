@@ -99,8 +99,6 @@ OFPST_FLOW reply (OF1.3) (xid=0x2):
  cookie=0x0, duration=12.603s, table=3, n_packets=0, n_bytes=0, priority=0,ip actions=load:0xc0a80102->NXM_NX_REG0[],goto_table:4
  cookie=0x0, duration=12.577s, table=4, n_packets=0, n_bytes=0, priority=0,reg0=0xc0a80100/0xffffff00 actions=load:0x1->NXM_NX_REG1[],set_field:01:01:01:01:01:01->eth_src,goto_table:5
  cookie=0x0, duration=12.569s, table=4, n_packets=0, n_bytes=0, priority=0,reg0=0xc0a80200/0xffffff00 actions=load:0x2->NXM_NX_REG1[],set_field:02:02:02:02:02:02->eth_src,goto_table:5
- cookie=0x0, duration=12.538s, table=5, n_packets=0, n_bytes=0, priority=2,ip,reg0=0xc0a80101 actions=set_field:01:01:01:01:01:01->eth_dst,goto_table:6
- cookie=0x0, duration=12.530s, table=5, n_packets=0, n_bytes=0, priority=2,ip,reg0=0xc0a80201 actions=set_field:02:02:02:02:02:02->eth_dst,goto_table:6
  cookie=0x0, duration=12.525s, table=5, n_packets=0, n_bytes=0, priority=1,ip actions=CONTROLLER:65535
  cookie=0x0, duration=12.520s, table=6, n_packets=0, n_bytes=0, priority=0 actions=output:NXM_NX_REG1[]
 ```
