@@ -104,6 +104,19 @@ OFPST_FLOW reply (OF1.3) (xid=0x2):
  cookie=0x0, duration=12.520s, table=6, n_packets=0, n_bytes=0, priority=0 actions=output:NXM_NX_REG1[]
 ```
 
+### 第7回 (11/25)
+
+1. ネットワークトポロジを検出しよう
+   - [スライド](https://github.com/handai-trema/deck/blob/develop/topology.pdf)
+   - [テキスト](http://yasuhito.github.io/trema-book/#topology)
+   - [演習用リポジトリ](https://classroom.github.com/assignment-invitations/139380be27c68b1e207771444914a482)
+
+今回の課題には Graphviz が必要です。次の手順で graphviz パッケージをインストールしてください。
+
+```
+$ apt-get install graphviz
+```
+
 ## 必須の読み物
 
 * [TremaでOpenFlowプログラミング](http://yasuhito.github.io/trema-book/)
