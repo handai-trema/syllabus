@@ -110,6 +110,8 @@ OFPST_FLOW reply (OF1.3) (xid=0x2):
    - [スライド](https://github.com/handai-trema/deck/blob/develop/topology.pdf)
    - [テキスト](http://yasuhito.github.io/trema-book/#topology)
    - [演習用リポジトリ](https://classroom.github.com/assignment-invitations/139380be27c68b1e207771444914a482)
+2. 実機のスイッチを使ってみよう
+   - [スライド](https://github.com/handai-trema/deck/blob/develop/topology2.pdf)
 
 今回の課題には Graphviz が必要です。次の手順で graphviz パッケージをインストールしてください。
 
