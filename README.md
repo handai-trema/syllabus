@@ -123,6 +123,10 @@ $ apt-get install graphviz
 1. たくさんのスイッチを制御しよう
    - [テキスト](http://yasuhito.github.io/trema-book/#routing_switch)
 
+### 第9回 (12/9)
+1. 仮想ネットワークを作ろう
+   - [テキスト](http://yasuhito.github.io/trema-book/#sliceable_switch)
+
 ## 必須の読み物
 
 * [TremaでOpenFlowプログラミング](http://yasuhito.github.io/trema-book/)
