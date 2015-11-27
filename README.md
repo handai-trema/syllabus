@@ -119,6 +119,10 @@ OFPST_FLOW reply (OF1.3) (xid=0x2):
 $ apt-get install graphviz
 ```
 
+### 第8回 (12/2)
+1. たくさんのスイッチを制御しよう
+   - [テキスト](http://yasuhito.github.io/trema-book/#routing_switch)
+
 ## 必須の読み物
 
 * [TremaでOpenFlowプログラミング](http://yasuhito.github.io/trema-book/)
