@@ -122,6 +122,7 @@ $ apt-get install graphviz
 ### 第8回 (12/2)
 1. たくさんのスイッチを制御しよう
    - [テキスト](http://yasuhito.github.io/trema-book/#routing_switch)
+   - [演習用リポジトリ](https://classroom.github.com/group-assignment-invitations/551c05d1103894adb81df27a8b487e94)
 
 ### 第9回 (12/9)
 1. 仮想ネットワークを作ろう
