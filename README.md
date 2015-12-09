@@ -127,11 +127,10 @@ $ apt-get install graphviz
 
 ### 第9回 (12/9)
 1. 仮想ネットワークを作ろう
+   - [スライド](https://github.com/handai-trema/deck/blob/develop/sliceable_switch.pdf)
    - [テキスト](http://yasuhito.github.io/trema-book/#sliceable_switch)
    - [演習用リポジトリ](https://classroom.github.com/group-assignment-invitations/179402a9c81a7794ff37d70b45862cf8)
  
-演習用リポジトリはまだクリックしないでね!
-
 ## 必須の読み物
 
 * [TremaでOpenFlowプログラミング](http://yasuhito.github.io/trema-book/)
