@@ -134,6 +134,7 @@ $ apt-get install graphviz
 ### 第10回 (1/6)
 1. Mini IaaSを作ろう
    - [スライド](https://github.com/handai-trema/deck/blob/develop/mini_iaas.pdf)
+   - [商用IaaSの設計](https://github.com/handai-trema/deck/blob/develop/commercial_iaas.pdf)
 
 ## 必須の読み物
 
