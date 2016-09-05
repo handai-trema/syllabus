@@ -1,15 +1,13 @@
 # 情報ネットワーク学演習II
 
-授業の[公式ページ](http://www.ane.cmc.osaka-u.ac.jp/~hasegawa/mdwiki/mdwiki.html#!lectures/ein2-2015.md)も読んでください。
+授業の[公式ページ](http://www.ane.cmc.osaka-u.ac.jp/~hasegawa/mdwiki/mdwiki.html#!lectures/ein2-2016.md)も読んでください。
 
 * **インストラクタ:**
   * 高宮 安仁 (たかみや やすひと), [yasuhito@gmail.com](mailto:yasuhito@gmail.com)
 * **TA**
   * 石野 正典 (いしの まさのり), [m-ishino@ist.osaka-u.ac.jp](mailto:m-ishino@ist.osaka-u.ac.jp)
-  * 豊永 慎也 (とよなが しんや), [s-toyonaga@ist.osaka-u.ac.jp](mailto:s-toyonaga@ist.osaka-u.ac.jp)
+  * 大歳 達也 (おおとし たつや), [t-otoshi@ist.osaka-u.ac.jp](mailto:t-otoshi@ist.osaka-u.ac.jp)
 * **Need help?**
-  * [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/handai-trema/syllabus?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-    * チャットルームでの質問はすべてメールでも届きますので、もし誰もいない場合でも気軽に質問してください
   * [GitHub のイシュー](https://github.com/advanced-js/syllabus/issues)を使った質問も歓迎です。
 
 
@@ -27,7 +25,7 @@
 
 ## 課題
 
-### 第1回 (10/7)
+### 第1回 (10/5)
 
 1. SDN/OpenFlow入門
    - [スライド](http://handai-trema.github.io/deck/sdn_intro.pdf)
@@ -35,106 +33,6 @@
    - [スライド](http://handai-trema.github.io/deck/git.html#1)
    - [演習用リポジトリ](https://github.com/handai-trema/self_intro)
 
-### 第2回 (10/14)
-
-1. Hello, Trema: Tremaで簡単なOpenFlowコントローラを書こう
-   - [スライド](https://github.com/handai-trema/deck/blob/develop/hello_trema.pdf)
-   - [演習用リポジトリ](https://github.com/handai-trema/hello_trema)
-2. cbench: Packet In と Flow Mod メッセージを使ってみよう
-   - [スライド](https://github.com/handai-trema/deck/blob/develop/cbench.pdf)
-   - [演習用リポジトリ](https://classroom.github.com/assignment-invitations/4dd0b372d5813f33997dbe3b0af5919b)
-
-### 第3回 (10/21)
-
-1. L2スイッチを作ろう
-   - [スライド](https://github.com/handai-trema/deck/blob/develop/learning_switch.pdf)
-   - [演習用リポジトリ](https://classroom.github.com/assignment-invitations/df8da63f5440cbc0286f94b227da9fa3)
-
-### 第4回 (10/28)
-
-1. OpenFlow1.3でL2スイッチを作ろう
-   - [スライド](https://github.com/handai-trema/deck/blob/develop/learning_switch13.pdf)
-   - 配布した learning_switch13.rb いくつかバグがありました。[こちら](https://github.com/trema/learning_switch/blob/develop/lib/learning_switch13.rb)を使ってください。
-
-### 第5回 (11/11)
-
-1. グループ課題: OpenFlow1.3でルータを作ろう
-   - [スライド](https://github.com/handai-trema/deck/blob/develop/simple_router.pdf)
-   - [テキスト 前編](http://yasuhito.github.io/trema-book/#router_part1)
-   - [テキスト 後編](http://yasuhito.github.io/trema-book/#router_part2)
-
-今回の課題には新しい Open vSwitch が必要です。次の手順で Open vSwitch をアップデートしてください。
-
-```
-$ sudo add-apt-repository ppa:suawekk/openvswitch
-$ sudo apt-get update
-$ sudo apt-get upgrade
-```
-
-### 第6回 (11/18)
-
-1. グループ課題: ルータをマルチプルテーブルで実装しよう
-   - [スライド](https://github.com/handai-trema/deck/blob/develop/simple_router2.pdf)
-
-今回の課題には新しいTremaが必要です。次の手順でTremaをアップデートしてください。
-
-```
-$ bundle update
-```
-
-課題の大ヒント
-```
-$ sudo ovs-ofctl dump-flows br0x1 --protocols=OpenFlow13
-OFPST_FLOW reply (OF1.3) (xid=0x2):
- cookie=0x0, duration=12.684s, table=0, n_packets=11, n_bytes=858, priority=0 actions=goto_table:1
- cookie=0x0, duration=12.684s, table=1, n_packets=0, n_bytes=0, priority=0,arp actions=goto_table:2
- cookie=0x0, duration=12.684s, table=1, n_packets=0, n_bytes=0, priority=0,ip actions=goto_table:3
- cookie=0x0, duration=12.674s, table=2, n_packets=0, n_bytes=0, priority=0,arp,in_port=1,arp_tpa=192.168.1.1,arp_op=1 actions=CONTROLLER:65535,move:NXM_OF_ETH_SRC[]->NXM_OF_ETH_DST[],set_field:01:01:01:01:01:01->eth_src,set_field:2->arp_op,move:NXM_NX_ARP_SHA[]->NXM_NX_ARP_THA[],move:NXM_OF_ARP_SPA[]->NXM_OF_ARP_TPA[],set_field:01:01:01:01:01:01->arp_sha,set_field:192.168.1.1->arp_spa,load:0xffff->OXM_OF_IN_PORT[],load:0x1->NXM_NX_REG1[],goto_table:6
- cookie=0x0, duration=12.665s, table=2, n_packets=0, n_bytes=0, priority=0,arp,in_port=1,arp_tpa=192.168.1.1,arp_op=2 actions=CONTROLLER:65535
- cookie=0x0, duration=12.632s, table=2, n_packets=0, n_bytes=0, priority=0,arp,in_port=2,arp_tpa=192.168.2.1,arp_op=1 actions=CONTROLLER:65535,move:NXM_OF_ETH_SRC[]->NXM_OF_ETH_DST[],set_field:02:02:02:02:02:02->eth_src,set_field:2->arp_op,move:NXM_NX_ARP_SHA[]->NXM_NX_ARP_THA[],move:NXM_OF_ARP_SPA[]->NXM_OF_ARP_TPA[],set_field:02:02:02:02:02:02->arp_sha,set_field:192.168.2.1->arp_spa,load:0xffff->OXM_OF_IN_PORT[],load:0x2->NXM_NX_REG1[],goto_table:6
- cookie=0x0, duration=12.623s, table=2, n_packets=0, n_bytes=0, priority=0,arp,in_port=2,arp_tpa=192.168.2.1,arp_op=2 actions=CONTROLLER:65535
- cookie=0x0, duration=12.654s, table=2, n_packets=0, n_bytes=0, priority=0,arp,reg1=0x1 actions=set_field:01:01:01:01:01:01->eth_src,set_field:01:01:01:01:01:01->arp_sha,set_field:192.168.1.1->arp_spa,goto_table:6
- cookie=0x0, duration=12.612s, table=2, n_packets=0, n_bytes=0, priority=0,arp,reg1=0x2 actions=set_field:02:02:02:02:02:02->eth_src,set_field:02:02:02:02:02:02->arp_sha,set_field:192.168.2.1->arp_spa,goto_table:6
- cookie=0x0, duration=12.594s, table=3, n_packets=0, n_bytes=0, priority=40024,ip,nw_dst=192.168.1.0/24 actions=move:NXM_OF_IP_DST[]->NXM_NX_REG0[],goto_table:4
- cookie=0x0, duration=12.585s, table=3, n_packets=0, n_bytes=0, priority=40024,ip,nw_dst=192.168.2.0/24 actions=move:NXM_OF_IP_DST[]->NXM_NX_REG0[],goto_table:4
- cookie=0x0, duration=12.603s, table=3, n_packets=0, n_bytes=0, priority=0,ip actions=load:0xc0a80102->NXM_NX_REG0[],goto_table:4
- cookie=0x0, duration=12.577s, table=4, n_packets=0, n_bytes=0, priority=0,reg0=0xc0a80100/0xffffff00 actions=load:0x1->NXM_NX_REG1[],set_field:01:01:01:01:01:01->eth_src,goto_table:5
- cookie=0x0, duration=12.569s, table=4, n_packets=0, n_bytes=0, priority=0,reg0=0xc0a80200/0xffffff00 actions=load:0x2->NXM_NX_REG1[],set_field:02:02:02:02:02:02->eth_src,goto_table:5
- cookie=0x0, duration=12.525s, table=5, n_packets=0, n_bytes=0, priority=1,ip actions=CONTROLLER:65535
- cookie=0x0, duration=12.520s, table=6, n_packets=0, n_bytes=0, priority=0 actions=output:NXM_NX_REG1[]
-```
-
-### 第7回 (11/25)
-
-1. ネットワークトポロジを検出しよう
-   - [スライド](https://github.com/handai-trema/deck/blob/develop/topology.pdf)
-   - [テキスト](http://yasuhito.github.io/trema-book/#topology)
-   - [演習用リポジトリ](https://classroom.github.com/assignment-invitations/139380be27c68b1e207771444914a482)
-2. 実機のスイッチを使ってみよう
-   - [スライド](https://github.com/handai-trema/deck/blob/develop/topology2.pdf)
-
-今回の課題には Graphviz が必要です。次の手順で graphviz パッケージをインストールしてください。
-
-```
-$ apt-get install graphviz
-```
-
-### 第8回 (12/2)
-1. たくさんのスイッチを制御しよう
-   - [スライド](https://github.com/handai-trema/deck/blob/develop/routing_switch.pdf)
-   - [テキスト](http://yasuhito.github.io/trema-book/#routing_switch)
-   - [演習用リポジトリ](https://classroom.github.com/group-assignment-invitations/551c05d1103894adb81df27a8b487e94)
-
-### 第9回 (12/9)
-1. 仮想ネットワークを作ろう
-   - [スライド](https://github.com/handai-trema/deck/blob/develop/sliceable_switch.pdf)
-   - [テキスト](http://yasuhito.github.io/trema-book/#sliceable_switch)
-   - [演習用リポジトリ](https://classroom.github.com/group-assignment-invitations/179402a9c81a7794ff37d70b45862cf8)
- 
-### 第10回 (1/6)
-1. Mini IaaSを作ろう
-   - [スライド](https://github.com/handai-trema/deck/blob/develop/mini_iaas.pdf)
-   - [商用IaaSの設計](https://github.com/handai-trema/deck/blob/develop/commercial_iaas.pdf)
 
 ## 必須の読み物
 
