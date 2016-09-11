@@ -11,7 +11,9 @@
   * [GitHub のイシュー](https://github.com/advanced-js/syllabus/issues)を使った質問も歓迎です。
 
 
-## 事前準備
+## 第1回 (10/5)
+
+### 事前準備
 
 * [GitHub](https://github.com/)のアカウントを作る
   * 課題提出は GitHub で行います。事前に[GitHubのアカウントを作って](https://help.github.com/articles/signing-up-for-a-new-github-account/)おいてください。
@@ -22,16 +24,14 @@
 
 なおRubyやLinuxに慣れていて開発環境をすでに持っている人は、VMを使わずに自前の開発環境を使ってもらってもかまいません。
 
-
-## 課題
-
-### 第1回 (10/5)
-
 1. SDN/OpenFlow入門
    - [スライド](http://handai-trema.github.io/deck/sdn_intro.pdf)
 2. Git&GitHub入門: GitやGitHubの練習として自己紹介を書いてコミットしよう
    - [スライド](http://handai-trema.github.io/deck/git.html#1)
    - [演習用リポジトリ](https://github.com/handai-trema/self_intro)
+
+
+## 第2回 (10/12)
 
 
 ## 必須の読み物
