@@ -29,6 +29,11 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 1. [GitHub](https://github.com/)のアカウント作成 ([GitHubのドキュメント](https://help.github.com/articles/signing-up-for-a-new-github-account/))
 2. Git&GitHub入門: GitやGitHubの練習として自己紹介を書いてコミット ([スライド](http://handai-trema.github.io/deck/git.html#1)) ([演習用リポジトリ](https://github.com/handai-trema/self_intro))
 
+### Hello Trema
+
+1. Hello Trema ([スライド](http://handai-trema.github.io/deck/week1/hello_trema.pdf))
+
+
 ### 事前準備
 
 * [Virtual Box](https://www.virtualbox.org/)をインストールする
