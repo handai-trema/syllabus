@@ -38,6 +38,8 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 
 ## 第2回 (10/12)
 
+準備中
+
 
 ## 必須の読み物
 
