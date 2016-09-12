@@ -31,17 +31,10 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 
 ### Hello Trema
 
-1. Hello Trema ([スライド](http://handai-trema.github.io/deck/week1/hello_trema.pdf))
+1. 課題用VMのセットアップ
+2. Hello Trema ([スライド](http://handai-trema.github.io/deck/week1/hello_trema.pdf))
+3. Ruby 入門 ([スライド](http://handai-trema.github.io/deck/week1/ruby_intro.pdf))
 
-
-### 事前準備
-
-* [Virtual Box](https://www.virtualbox.org/)をインストールする
-* 課題用の[VMイメージ](http://www.ane.cmc.osaka-u.ac.jp/~hasegawa/2016-ein2/ensyuuVB1.ova)をVirtual Boxにインポートする
-  1. VirtualBox のメニュー→ファイル→仮想アプライアンスのインポート→ensyuuVB1.ovaを選択→次へ→インポート
-  2. インポートした VM イメージを起動。ユーザ名、パスワードは `ensyuu2`
-
-なおRubyやLinuxに慣れていて開発環境をすでに持っている人は、VMを使わずに自前の開発環境を使ってもらってもかまいません。
 
 ## 第2回 (10/12)
 
