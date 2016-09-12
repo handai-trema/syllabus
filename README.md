@@ -19,6 +19,17 @@ SDNプログラミングを始めるにあたって、まずは Git と GitHub �
 
 SDNプログラミング環境として[Trema](https://github.com/handai-trema/self_intro)を使います。Tremaは OpenFlow プログラミングのためのプログラミングフレームワークです。定番の Hello World から始め、OpenFlow のコントローラの動作や、イベントドリブンモデル、そしてプログラミング言語 Ruby の基礎を学びます。
 
+### イントロダクション
+
+1. イントロダクション ([スライド](http://handai-trema.github.io/deck/week1/sdn_course_intro.pdf))
+2. SDN/OpenFlow入門 ([スライド](http://handai-trema.github.io/deck/sdn_intro.pdf))
+
+### Git/GitHub入門
+
+1. Git&GitHub入門: GitやGitHubの練習として自己紹介を書いてコミットしよう
+   - [スライド](http://handai-trema.github.io/deck/git.html#1)
+   - [演習用リポジトリ](https://github.com/handai-trema/self_intro)
+
 ### 事前準備
 
 * [GitHub](https://github.com/)のアカウントを作る
@@ -29,13 +40,6 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
   2. インポートした VM イメージを起動。ユーザ名、パスワードは `ensyuu2`
 
 なおRubyやLinuxに慣れていて開発環境をすでに持っている人は、VMを使わずに自前の開発環境を使ってもらってもかまいません。
-
-1. SDN/OpenFlow入門
-   - [スライド](http://handai-trema.github.io/deck/sdn_intro.pdf)
-2. Git&GitHub入門: GitやGitHubの練習として自己紹介を書いてコミットしよう
-   - [スライド](http://handai-trema.github.io/deck/git.html#1)
-   - [演習用リポジトリ](https://github.com/handai-trema/self_intro)
-
 
 ## 第2回 (10/12)
 
