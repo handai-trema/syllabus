@@ -27,13 +27,14 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 ### Git/GitHub入門
 
 1. [GitHub](https://github.com/)のアカウント作成 ([GitHubのドキュメント](https://help.github.com/articles/signing-up-for-a-new-github-account/))
-2. Git&GitHub入門: GitやGitHubの練習として自己紹介を書いてコミット ([スライド](http://handai-trema.github.io/deck/git.html#1)) ([演習用リポジトリ](https://github.com/handai-trema/self_intro))
+2. Git&GitHub入門: GitやGitHubの練習として自己紹介を書いてコミット ([スライド](http://handai-trema.github.io/deck/git.html#1)) ([リンク集](https://github.com/handai-trema/deck/blob/develop/week1/git.md))
 
 ### Hello Trema
 
 1. 課題用VMのセットアップ
 2. Hello Trema ([スライド](http://handai-trema.github.io/deck/week1/hello_trema.pdf))
 3. Ruby 入門 ([スライド](http://handai-trema.github.io/deck/week1/ruby_intro.pdf)) ([参考書・参考サイト](https://github.com/handai-trema/deck/blob/develop/week1/ruby.md))
+
 
 ## 第2回 (10/12)
 
@@ -43,18 +44,6 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 * [TremaでOpenFlowプログラミング](http://yasuhito.github.io/trema-book/)
 
 本演習で使うテキストで、フリーで読めます。技術評論社から発売中の[OpenFlow実践入門](http://www.amazon.co.jp/dp/4774154652/)の続編です。演習ごとに読むべき章は連絡します。
-
-
-## Git と GitHub
-
-演習では Git と GitHub をたくさん使うので、あらかじめ慣れておいてください。なお Git とはバージョン管理ツールの一種です。GitHub は Git を使ってソースコードを公開できるサービスの一つです。
-
-* [サルでもわかるGit入門](http://www.backlog.jp/git-guide/)
-* [いつやるの？Git入門 v1.1.0](http://www.slideshare.net/matsukaz/git-28304397)
-* [こわくないGit](http://www.slideshare.net/kotas/git-15276118)
-* [Learn Git Branching](http://k.swd.cc/learnGitBranching-ja/)
-
-このほかにも、はてなブックマークで["git" + "入門" タグの付いた人気記事を検索](http://b.hatena.ne.jp/search/tag?safe=on&sort=popular&q=git+%E5%85%A5%E9%96%80)すれば、人気記事がたくさんみつかります。
 
 
 ## 成績評価
