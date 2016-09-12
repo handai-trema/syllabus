@@ -54,8 +54,9 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 
 ### Git/GitHub入門
 
-1. [GitHub](https://github.com/)のアカウント作成 ([GitHubのドキュメント](https://help.github.com/articles/signing-up-for-a-new-github-account/))
-2. Git&GitHub入門: GitやGitHubの練習として自己紹介を書いてコミット ([スライド](http://handai-trema.github.io/deck/git.html#1)) ([リンク集](https://github.com/handai-trema/deck/blob/develop/week1/git.md))
+1. Git 入門 ([スライド](http://handai-trema.github.io/deck/week1/git_intro.html#1)) ([リンク集](https://github.com/handai-trema/deck/blob/develop/week1/git.md))
+2. GitHub 入門
+3. [GitHub](https://github.com/)のアカウント作成 ([GitHubのドキュメント](https://help.github.com/articles/signing-up-for-a-new-github-account/))
 
 ### Hello Trema
 
