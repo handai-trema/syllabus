@@ -57,12 +57,17 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 1. Git 入門 ([スライド](http://handai-trema.github.io/deck/week1/git_intro.html#1)) ([リンク集](https://github.com/handai-trema/deck/blob/develop/week1/git.md))
 2. GitHub 入門
 3. [GitHub](https://github.com/)のアカウント作成 ([GitHubのドキュメント](https://help.github.com/articles/signing-up-for-a-new-github-account/))
+4. 演習-自己紹介リポジトリの編集
+  * GitHub に自己紹介用のリポジトリを作成する
+  * リポジトリ内に自己紹介文を作成する
+  * handai_trema/self_intro の [README.md](https://github.com/handai-trema/self_intro) に自己紹介文へのリンクを張る
 
 ### Hello Trema
 
 1. 課題用VMのセットアップ
   * [VirtualBox](https://www.virtualbox.org/)をインストール
   * 課題用VMイメージをVirtualBoxにインポート
+    * [課題用VMイメージ](http://www.ane.cmc.osaka-u.ac.jp/~hasegawa/2016-ein2/ensyuuVB1.ova)(約3GB)をダウンロード
     * VirtualBoxのメニュー → ファイル → 仮想アプライアンスのインポート
     * 課題用VMイメージ(ensyuuVB1.ova)を選択→インポート
   * インポートしたVMイメージを起動
