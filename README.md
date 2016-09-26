@@ -65,7 +65,9 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 
 ### Hello Trema
 
-1. Hello Trema ([スライド](http://handai-trema.github.io/deck/week1/hello_trema.pdf))
+1. Hello Trema
+   - [スライド](http://handai-trema.github.io/deck/week1/hello_trema.pdf)
+   - [テキスト](http://yasuhito.github.io/trema-book/#hello_trema)
 2. Ruby 入門・Tremaのハンドラ
    - [スライド](http://handai-trema.github.io/deck/week1/ruby_intro.pdf)
    - [Ruby 入門 参考書・参考サイト](https://github.com/handai-trema/deck/blob/develop/week1/ruby.md)
