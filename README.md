@@ -77,11 +77,11 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
    - スライド
 
 2. cbench: Packet In と Flow Mod メッセージを使ってみよう
-   - [スライド](https://github.com/handai-trema/deck/blob/develop/week2/cbench.pdf)
+   - [スライド](http://handai-trema.github.io/deck/week2/cbench.pdf)
    - [演習用リポジトリ](https://classroom.github.com/assignment-invitations/4dd0b372d5813f33997dbe3b0af5919b)
 
 3. L2スイッチを作ろう
-   - [スライド](https://github.com/handai-trema/deck/blob/develop/learning_switch.pdf)
+   - [スライド](http://handai-trema.github.io/deck/week2/learning_switch.pdf)
    - [演習用リポジトリ](https://classroom.github.com/assignment-invitations/df8da63f5440cbc0286f94b227da9fa3)
 
 
