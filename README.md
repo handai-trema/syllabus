@@ -69,7 +69,7 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 2. Ruby 入門 ([スライド](http://handai-trema.github.io/deck/week1/ruby_intro.pdf)) ([参考書・参考サイト](https://github.com/handai-trema/deck/blob/develop/week1/ruby.md))
 3. Ruby のテクニック
    - [スライド](http://handai-trema.github.io/deck/week1/advanced_ruby.pdf)
-   - 課題: [Hello Trema](http://handai-trema.github.io/deck/week1/assignment_hello_trema.md)
+   - 課題: [Hello Trema](https://github.com/handai-trema/deck/blob/develop/week1/assignment_hello_trema.md)
 
 ## 第2回 (10/12)
 
