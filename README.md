@@ -49,7 +49,7 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 
 ### 事前準備
 
-プログラミング演習に使う VM イメージを配布しています。授業までに[手順に従ってセットアップ](https://github.com/handai-trema/deck/week1/VM.md)しておいてください。
+プログラミング演習に使う VM イメージを配布しています。授業までに[手順に従ってセットアップ](https://github.com/handai-trema/deck/blob/develop/week1/VM.md)しておいてください。
 
 ### イントロダクション
 
