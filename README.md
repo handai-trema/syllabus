@@ -47,6 +47,10 @@ SDNプログラミングを始めるにあたって、まずは Git と GitHub �
 
 SDNプログラミング環境として[Trema](https://github.com/handai-trema/self_intro)を使います。Tremaは OpenFlow プログラミングのためのプログラミングフレームワークです。定番の Hello World から始め、OpenFlow のコントローラの動作や、イベントドリブンモデル、そしてプログラミング言語 Ruby の基礎を学びます。
 
+### 事前準備
+
+プログラミング演習に使う VM イメージを配布しています。授業までに[手順に従ってセットアップ](https://github.com/handai-trema/deck/week1/VM.md)しておいてください。
+
 ### イントロダクション
 
 1. イントロダクション ([スライド](http://handai-trema.github.io/deck/week1/sdn_course_intro.pdf))
@@ -64,17 +68,9 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 
 ### Hello Trema
 
-1. 課題用VMのセットアップ
-  * [VirtualBox](https://www.virtualbox.org/)をインストール
-  * 課題用VMイメージをVirtualBoxにインポート
-    * [課題用VMイメージ](http://www.ane.cmc.osaka-u.ac.jp/~hasegawa/2016-ein2/ensyuuVB1.ova)(約3GB)をダウンロード
-    * VirtualBoxのメニュー → ファイル → 仮想アプライアンスのインポート
-    * 課題用VMイメージ(ensyuuVB1.ova)を選択→インポート
-  * インポートしたVMイメージを起動
-    * ユーザー名、パスワードは共に'ensyuu2'
-2. Hello Trema ([スライド](http://handai-trema.github.io/deck/week1/hello_trema.pdf))
-3. Ruby 入門 ([スライド](http://handai-trema.github.io/deck/week1/ruby_intro.pdf)) ([参考書・参考サイト](https://github.com/handai-trema/deck/blob/develop/week1/ruby.md))
-4. Ruby のテクニック ([スライド](http://handai-trema.github.io/deck/week1/advanced_ruby.pdf))
+1. Hello Trema ([スライド](http://handai-trema.github.io/deck/week1/hello_trema.pdf))
+2. Ruby 入門 ([スライド](http://handai-trema.github.io/deck/week1/ruby_intro.pdf)) ([参考書・参考サイト](https://github.com/handai-trema/deck/blob/develop/week1/ruby.md))
+3. Ruby のテクニック ([スライド](http://handai-trema.github.io/deck/week1/advanced_ruby.pdf))
 
 ## 第2回 (10/12)
 
