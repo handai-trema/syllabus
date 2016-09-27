@@ -53,7 +53,7 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
    プログラミング演習に使う VM イメージを配布しています。授業までに[手順に従ってセットアップ](https://github.com/handai-trema/deck/blob/develop/week1/VM.md)しておいてください。
 2. GitHub アカウント:
    課題はすべて [GitHub](https://github.com/) 上に提出してもらいます。
-   ([GitHubのドキュメント](https://help.github.com/articles/signing-up-for-a-new-github-account/))
+   [GitHubのドキュメント](https://help.github.com/articles/signing-up-for-a-new-github-account/)
    に従ってアカウントを作っておいてください。
 
 ### イントロダクション
