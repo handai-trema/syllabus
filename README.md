@@ -49,7 +49,12 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 
 ### 事前準備
 
-プログラミング演習に使う VM イメージを配布しています。授業までに[手順に従ってセットアップ](https://github.com/handai-trema/deck/blob/develop/week1/VM.md)しておいてください。
+1. VM のセットアップ:
+   プログラミング演習に使う VM イメージを配布しています。授業までに[手順に従ってセットアップ](https://github.com/handai-trema/deck/blob/develop/week1/VM.md)しておいてください。
+2. GitHub アカウント:
+   課題はすべて [GitHub](https://github.com/) 上に提出してもらいます。
+   [GitHubのドキュメント](https://help.github.com/articles/signing-up-for-a-new-github-account/)
+   に従ってアカウントを作っておいてください。
 
 ### イントロダクション
 
@@ -60,38 +65,53 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 
 ### Git/GitHub入門
 
-1. Git 入門 ([スライド](http://handai-trema.github.io/deck/week1/git.html#1)) ([リンク集](https://github.com/handai-trema/deck/blob/develop/week1/git.md))
-2. GitHub 入門 ([スライド](http://handai-trema.github.io/deck/week1/github.html#1))
-3. [GitHub](https://github.com/)のアカウント作成 ([GitHubのドキュメント](https://help.github.com/articles/signing-up-for-a-new-github-account/))
-4. 課題: [GitHub で自己紹介](https://github.com/handai-trema/self_intro)
+1. Git 入門
+   - [スライド](http://handai-trema.github.io/deck/week1/git.html#1)
+   - [Git 入門 参考書・参考サイト](https://github.com/handai-trema/deck/blob/develop/week1/git.md)
+2. GitHub 入門
+   - [スライド](http://handai-trema.github.io/deck/week1/github.html#1)
+   - 課題: [GitHub で自己紹介](https://github.com/handai-trema/self_intro)
 
 ### Hello Trema
 
-1. Hello Trema ([スライド](http://handai-trema.github.io/deck/week1/hello_trema.pdf))
+1. Hello Trema
+   - [スライド](http://handai-trema.github.io/deck/week1/hello_trema.pdf)
+   - [テキスト](http://yasuhito.github.io/trema-book/#hello_trema)
 2. Ruby 入門・Tremaのハンドラ
    - [スライド](http://handai-trema.github.io/deck/week1/ruby_intro.pdf)
-   - 課題: [スイッチの切断イベント](https://github.com/handai-trema/deck/blob/develop/week1/assignment_bye_switch.md)
    - [Ruby 入門 参考書・参考サイト](https://github.com/handai-trema/deck/blob/develop/week1/ruby.md)
+   - 課題: [スイッチの切断イベント](https://github.com/handai-trema/deck/blob/develop/week1/assignment_bye_switch.md)
 3. Ruby のテクニック
    - [スライド](http://handai-trema.github.io/deck/week1/advanced_ruby.pdf)
    - 課題: [Hello Trema](https://github.com/handai-trema/deck/blob/develop/week1/assignment_hello_trema.md)
+
 
 ## 第2回 (10/12)
 
 (準備中)
 
 1. OpenFlow プロトコル入門
-   - スライド
+   - [スライド](http://handai-trema.github.io/deck/week2/open_flow.pdf)
+   - [テキスト](http://yasuhito.github.io/trema-book/#how_does_openflow_work)
 
 2. cbench: Packet In と Flow Mod メッセージを使ってみよう
    - [スライド](http://handai-trema.github.io/deck/week2/cbench.pdf)
-   - [演習用リポジトリ](https://classroom.github.com/assignment-invitations/4dd0b372d5813f33997dbe3b0af5919b)
+   - [テキスト](http://yasuhito.github.io/trema-book/#cbench)
 
 3. L2スイッチを作ろう
    - [スライド](http://handai-trema.github.io/deck/week2/learning_switch.pdf)
-   - [演習用リポジトリ](https://classroom.github.com/assignment-invitations/df8da63f5440cbc0286f94b227da9fa3)
+   - [テキスト](http://yasuhito.github.io/trema-book/#learning_swiwtch)
 
 
 ## 第3回 (10/19)
 
 (準備中)
+
+1. パッチパネルを作ろう
+   - [テキスト](http://yasuhito.github.io/trema-book/#patch_panel)
+2. OpenFlow 1.3 版 L2 スイッチを作ろう
+   - [スライド](http://handai-trema.github.io/deck/week3/learning_switch13.pdf)
+   - [テキスト](http://yasuhito.github.io/trema-book/#learning_switch13)
+3. OpenFlow 1.3 入門
+   - [スライド](http://handai-trema.github.io/deck/week3/open_flow13.pdf)
+   - [テキスト](http://yasuhito.github.io/trema-book/#openflow_spec)
