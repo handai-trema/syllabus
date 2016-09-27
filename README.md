@@ -49,7 +49,12 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 
 ### 事前準備
 
-プログラミング演習に使う VM イメージを配布しています。授業までに[手順に従ってセットアップ](https://github.com/handai-trema/deck/blob/develop/week1/VM.md)しておいてください。
+1. VM のセットアップ:
+   プログラミング演習に使う VM イメージを配布しています。授業までに[手順に従ってセットアップ](https://github.com/handai-trema/deck/blob/develop/week1/VM.md)しておいてください。
+2. GitHub アカウント:
+   課題はすべて [GitHub](https://github.com/) 上に提出してもらいます。
+   ([GitHubのドキュメント](https://help.github.com/articles/signing-up-for-a-new-github-account/))
+   に従ってアカウントを作っておいてください。
 
 ### イントロダクション
 
@@ -60,8 +65,7 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 
 1. Git 入門 ([スライド](http://handai-trema.github.io/deck/week1/git.html#1)) ([リンク集](https://github.com/handai-trema/deck/blob/develop/week1/git.md))
 2. GitHub 入門 ([スライド](http://handai-trema.github.io/deck/week1/github.html#1))
-3. [GitHub](https://github.com/)のアカウント作成 ([GitHubのドキュメント](https://help.github.com/articles/signing-up-for-a-new-github-account/))
-4. 課題: [GitHub で自己紹介](https://github.com/handai-trema/self_intro)
+3. 課題: [GitHub で自己紹介](https://github.com/handai-trema/self_intro)
 
 ### Hello Trema
 
