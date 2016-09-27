@@ -83,6 +83,7 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
    - [スライド](http://handai-trema.github.io/deck/week1/advanced_ruby.pdf)
    - 課題: [Hello Trema](https://github.com/handai-trema/deck/blob/develop/week1/assignment_hello_trema.md)
 
+
 ## 第2回 (10/12)
 
 (準備中)
@@ -93,11 +94,11 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 
 2. cbench: Packet In と Flow Mod メッセージを使ってみよう
    - [スライド](http://handai-trema.github.io/deck/week2/cbench.pdf)
-   - [演習用リポジトリ](https://classroom.github.com/assignment-invitations/4dd0b372d5813f33997dbe3b0af5919b)
+   - [テキスト](http://yasuhito.github.io/trema-book/#cbench)
 
 3. L2スイッチを作ろう
    - [スライド](http://handai-trema.github.io/deck/week2/learning_switch.pdf)
-   - [演習用リポジトリ](https://classroom.github.com/assignment-invitations/df8da63f5440cbc0286f94b227da9fa3)
+   - [テキスト](http://yasuhito.github.io/trema-book/#learning_swiwtch)
 
 
 ## 第3回 (10/19)
