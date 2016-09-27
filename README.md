@@ -102,3 +102,7 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 ## 第3回 (10/19)
 
 (準備中)
+
+1. パッチパネルを作ろう
+2. OpenFlow 1.3 入門
+3. OpenFlow 1.3 版 L2 スイッチを作ろう
