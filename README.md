@@ -88,7 +88,8 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 (準備中)
 
 1. OpenFlow プロトコル入門
-   - スライド
+   - [スライド](http://handai-trema.github.io/deck/week2/open_flow.pdf)
+   - [テキスト](http://yasuhito.github.io/trema-book/#how_does_openflow_work)
 
 2. cbench: Packet In と Flow Mod メッセージを使ってみよう
    - [スライド](http://handai-trema.github.io/deck/week2/cbench.pdf)
