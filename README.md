@@ -63,9 +63,12 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 
 ### Git/GitHub入門
 
-1. Git 入門 ([スライド](http://handai-trema.github.io/deck/week1/git.html#1)) ([リンク集](https://github.com/handai-trema/deck/blob/develop/week1/git.md))
-2. GitHub 入門 ([スライド](http://handai-trema.github.io/deck/week1/github.html#1))
-3. 課題: [GitHub で自己紹介](https://github.com/handai-trema/self_intro)
+1. Git 入門
+   - [スライド](http://handai-trema.github.io/deck/week1/git.html#1)
+   - [Git 入門 参考書・参考サイト](https://github.com/handai-trema/deck/blob/develop/week1/git.md)
+2. GitHub 入門
+   - [スライド](http://handai-trema.github.io/deck/week1/github.html#1)
+   - 課題: [GitHub で自己紹介](https://github.com/handai-trema/self_intro)
 
 ### Hello Trema
 
