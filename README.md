@@ -109,3 +109,5 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
    - [スライド](http://handai-trema.github.io/deck/week3/learning_switch13.pdf)
    - [テキスト](http://yasuhito.github.io/trema-book/#learning_switch13)
 3. OpenFlow 1.3 入門
+   - [スライド](http://handai-trema.github.io/deck/week3/open_flow13.pdf)
+   - [テキスト](http://yasuhito.github.io/trema-book/#openflow_spec)
