@@ -99,15 +99,15 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
 
 1. OpenFlow プロトコル入門
    - [スライド](http://handai-trema.github.io/deck/week2/open_flow.pdf)
-   - [テキスト](http://yasuhito.github.io/trema-book/#how_does_openflow_work)
+   - テキスト: [1章 "OpenFlow の仕組み"](http://yasuhito.github.io/trema-book/#how_does_openflow_work)
 
 2. cbench: Packet In と Flow Mod メッセージを使ってみよう
    - [スライド](http://handai-trema.github.io/deck/week2/cbench.pdf)
-   - [テキスト](http://yasuhito.github.io/trema-book/#cbench)
+   - テキスト: [5章 "マイクロベンチマークCbench"](http://yasuhito.github.io/trema-book/#cbench)
 
 3. L2スイッチを作ろう
    - [スライド](http://handai-trema.github.io/deck/week2/learning_switch.pdf)
-   - [テキスト](http://yasuhito.github.io/trema-book/#learning_swiwtch)
+   - テキスト: [7章 "すべての基本、ラーニングスイッチ"](http://yasuhito.github.io/trema-book/#learning_switch)
 
 
 ## 第3回 (10/19)
