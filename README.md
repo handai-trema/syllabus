@@ -53,8 +53,7 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
    プログラミング演習に使う VM イメージを配布しています。授業までに[手順に従ってセットアップ](https://github.com/handai-trema/deck/blob/develop/week1/VM.md)しておいてください。
 2. GitHub アカウント:
    課題はすべて [GitHub](https://github.com/) 上に提出してもらいます。
-   [GitHubのドキュメント](https://help.github.com/articles/signing-up-for-a-new-github-account/)
-   に従ってアカウントを作っておいてください。
+   [GitHubのドキュメント](https://help.github.com/articles/signing-up-for-a-new-github-account/)に従ってアカウントを作っておいてください。
 3. Ruby の予習:
    演習ではプログラミング言語として Ruby を使います。必要な構文などは授業で説明しますが、ある程度はオブジェクト指向の基本を知っている前提で授業を進めます。こちらの[リンク集](https://github.com/handai-trema/deck/blob/develop/week1/ruby.md)を参考に、あらかじめ Ruby を予習しておいてください。
 
