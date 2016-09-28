@@ -55,6 +55,8 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
    課題はすべて [GitHub](https://github.com/) 上に提出してもらいます。
    [GitHubのドキュメント](https://help.github.com/articles/signing-up-for-a-new-github-account/)
    に従ってアカウントを作っておいてください。
+3. Ruby の予習:
+   演習ではプログラミング言語として Ruby を使います。必要な構文などは授業で説明しますが、ある程度はオブジェクト指向の基本を知っている前提で授業を進めます。こちらの[リンク集](https://github.com/handai-trema/deck/blob/develop/week1/ruby.md)を参考に、あらかじめ Ruby を予習しておいてください。
 
 ### イントロダクション
 
@@ -79,7 +81,6 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
    - [テキスト](http://yasuhito.github.io/trema-book/#hello_trema)
 2. Ruby 入門・Tremaのハンドラ
    - [スライド](http://handai-trema.github.io/deck/week1/ruby_intro.pdf)
-   - [Ruby 入門 参考書・参考サイト](https://github.com/handai-trema/deck/blob/develop/week1/ruby.md)
    - 課題: [スイッチの切断イベント](https://github.com/handai-trema/deck/blob/develop/week1/assignment_bye_switch.md)
 3. イントロスペクション
    - [スライド](http://handai-trema.github.io/deck/week1/ruby_introspection.pdf)
