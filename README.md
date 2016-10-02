@@ -53,8 +53,9 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
    プログラミング演習に使う VM イメージを配布しています。授業までに[手順に従ってセットアップ](https://github.com/handai-trema/deck/blob/develop/week1/VM.md)しておいてください。
 2. GitHub アカウント:
    課題はすべて [GitHub](https://github.com/) 上に提出してもらいます。
-   [GitHubのドキュメント](https://help.github.com/articles/signing-up-for-a-new-github-account/)
-   に従ってアカウントを作っておいてください。
+   [GitHubのドキュメント](https://help.github.com/articles/signing-up-for-a-new-github-account/)に従ってアカウントを作っておいてください。
+3. Ruby の予習:
+   演習ではプログラミング言語として Ruby を使います。必要な構文などは授業で説明しますが、ある程度はオブジェクト指向の基本を知っている前提で授業を進めます。こちらの[リンク集](https://github.com/handai-trema/deck/blob/develop/week1/ruby.md)を参考に、あらかじめ Ruby を予習しておいてください。
 
 ### イントロダクション
 
@@ -76,31 +77,41 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 
 1. Hello Trema
    - [スライド](http://handai-trema.github.io/deck/week1/hello_trema.pdf)
-   - [テキスト](http://yasuhito.github.io/trema-book/#hello_trema)
+   - [課題用リポジトリ](https://classroom.github.com/assignment-invitations/1432105c8d4577dee37a0e001de48830)
+   - テキスト: [3章 "Hello, Trema!"](http://yasuhito.github.io/trema-book/#hello_trema)
 2. Ruby 入門・Tremaのハンドラ
    - [スライド](http://handai-trema.github.io/deck/week1/ruby_intro.pdf)
-   - [Ruby 入門 参考書・参考サイト](https://github.com/handai-trema/deck/blob/develop/week1/ruby.md)
    - 課題: [スイッチの切断イベント](https://github.com/handai-trema/deck/blob/develop/week1/assignment_bye_switch.md)
-3. Ruby のテクニック
-   - [スライド](http://handai-trema.github.io/deck/week1/advanced_ruby.pdf)
+3. イントロスペクション
+   - [スライド](http://handai-trema.github.io/deck/week1/ruby_introspection.pdf)
    - 課題: [Hello Trema](https://github.com/handai-trema/deck/blob/develop/week1/assignment_hello_trema.md)
 
 
 ## 第2回 (10/12)
 
+OpenFlow や Trema の概要がわかったところで、もう少し細かい仕様の理解と実用的な OpenFlow プログラミングに進みましょう。
+
+まずは OpenFlow 1.0 仕様のポイントとよく使う用語を押さえます。そして、本格的な OpenFlow プログラミングの第一歩として、スイッチのフローテーブル書き換えに挑戦します。OpenFlow コントローラ用マイクロベンチマークツール Cbench を題材に、OpenFlow の重要なメッセージである Packet In と Flow Mod メッセージの使い方を学びます。
+
+最後に、一般的な L2 スイッチを OpenFlow で実装する方法を学びます。L2 スイッチの仕組みと OpenFlow での実装方法が分かれば、これをベースに改造することでより複雑な OpenFlow アプリケーションを作れるようになるでしょう。
+
 (準備中)
 
 1. OpenFlow プロトコル入門
    - [スライド](http://handai-trema.github.io/deck/week2/open_flow.pdf)
-   - [テキスト](http://yasuhito.github.io/trema-book/#how_does_openflow_work)
+   - テキスト: [1章 "OpenFlow の仕組み"](http://yasuhito.github.io/trema-book/#how_does_openflow_work)
 
 2. cbench: Packet In と Flow Mod メッセージを使ってみよう
    - [スライド](http://handai-trema.github.io/deck/week2/cbench.pdf)
-   - [テキスト](http://yasuhito.github.io/trema-book/#cbench)
+   - 課題: [Cbenchの高速化](https://github.com/handai-trema/deck/blob/develop/week2/assignment_cbench.md)
+   - [課題用リポジトリ](https://classroom.github.com/assignment-invitations/d8e5b9494f8c31c2de889464b6ab4038)
+   - テキスト: [5章 "マイクロベンチマークCbench"](http://yasuhito.github.io/trema-book/#cbench)
 
 3. L2スイッチを作ろう
    - [スライド](http://handai-trema.github.io/deck/week2/learning_switch.pdf)
-   - [テキスト](http://yasuhito.github.io/trema-book/#learning_swiwtch)
+   - 課題: [複数スイッチ対応](https://github.com/handai-trema/deck/blob/develop/week2/assignment_learning_switch.md)
+   - [課題用リポジトリ](https://classroom.github.com/assignment-invitations/12547fca10261e602080952dff521266)
+   - テキスト: [7章 "すべての基本、ラーニングスイッチ"](http://yasuhito.github.io/trema-book/#learning_switch)
 
 
 ## 第3回 (10/19)
