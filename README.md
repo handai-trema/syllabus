@@ -61,7 +61,7 @@ SDNプログラミング環境として[Trema](https://github.com/handai-trema/s
 1. イントロダクション
    - [スライド](http://handai-trema.github.io/deck/week1/sdn_course_intro.pdf)
 2. SDN/OpenFlow入門
-   - [スライド](http://handai-trema.github.io/deck/sdn_intro.pdf)
+   - [スライド](http://handai-trema.github.io/deck/week1/sdn_intro.pdf)
 
 ### Git/GitHub入門
 
