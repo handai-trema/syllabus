@@ -95,8 +95,6 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
 
 最後に、一般的な L2 スイッチを OpenFlow で実装する方法を学びます。L2 スイッチの仕組みと OpenFlow での実装方法が分かれば、これをベースに改造することでより複雑な OpenFlow アプリケーションを作れるようになるでしょう。
 
-(準備中)
-
 1. OpenFlow プロトコル入門
    - [スライド](http://handai-trema.github.io/deck/week2/open_flow.pdf)
    - テキスト: [1章 "OpenFlow の仕組み"](http://yasuhito.github.io/trema-book/#how_does_openflow_work)
