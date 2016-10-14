@@ -101,13 +101,13 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
 
 2. cbench: Packet In と Flow Mod メッセージを使ってみよう
    - [スライド](http://handai-trema.github.io/deck/week2/cbench.pdf)
-   - 課題: [Cbenchの高速化](https://github.com/handai-trema/deck/blob/develop/week2/assignment_cbench.md)
+   - 課題: [Cbenchの高速化](https://github.com/handai-trema/deck/blob/develop/week2/assignment_cbench.md) [Accelerating Cbench](https://github.com/handai-trema/deck/blob/develop/week2/assignment_cbench.md)
    - [課題用リポジトリ](https://classroom.github.com/assignment-invitations/d8e5b9494f8c31c2de889464b6ab4038)
    - テキスト: [5章 "マイクロベンチマークCbench"](http://yasuhito.github.io/trema-book/#cbench)
 
 3. L2スイッチを作ろう
    - [スライド](http://handai-trema.github.io/deck/week2/learning_switch.pdf)
-   - 課題: [複数スイッチ対応](https://github.com/handai-trema/deck/blob/develop/week2/assignment_learning_switch.md)
+   - 課題: [複数スイッチ対応](https://github.com/handai-trema/deck/blob/develop/week2/assignment_learning_switch.md) [Multi-Learning Switch](https://github.com/handai-trema/deck/blob/develop/week2/assignment_learning_switch_english.md)
    - [課題用リポジトリ](https://classroom.github.com/assignment-invitations/12547fca10261e602080952dff521266)
    - テキスト: [7章 "すべての基本、ラーニングスイッチ"](http://yasuhito.github.io/trema-book/#learning_switch)
 
