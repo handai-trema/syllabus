@@ -117,10 +117,11 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
 (準備中)
 
 1. パッチパネルを作ろう
-   - [テキスト](http://yasuhito.github.io/trema-book/#patch_panel)
+   - [スライド](http://handai-trema.github.io/deck/week3/patch_panel.pdf)
+   - テキスト: [6章 "インテリジェントなパッチパネル"](http://yasuhito.github.io/trema-book/#patch_panel)
 2. OpenFlow 1.3 版 L2 スイッチを作ろう
    - [スライド](http://handai-trema.github.io/deck/week3/learning_switch13.pdf)
-   - [テキスト](http://yasuhito.github.io/trema-book/#learning_switch13)
+   - テキスト: [8章 "OpenFlow1.3版ラーニングスイッチ"](http://yasuhito.github.io/trema-book/#learning_switch13)
 3. OpenFlow 1.3 入門
    - [スライド](http://handai-trema.github.io/deck/week3/open_flow13.pdf)
-   - [テキスト](http://yasuhito.github.io/trema-book/#openflow_spec)
+   - テキスト: [2章 "OpenFlow の仕様"](http://yasuhito.github.io/trema-book/#openflow_spec)
