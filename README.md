@@ -123,6 +123,7 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
 2. OpenFlow 1.3 版 L2 スイッチを作ろう
    - [スライド](http://handai-trema.github.io/deck/week3/learning_switch13.pdf)
    - 課題: [マルチプルテーブルを読む](https://github.com/handai-trema/deck/blob/develop/week3/assignment_learning_switch13.md)
+   - [課題用リポジトリ](https://classroom.github.com/assignment-invitations/12547fca10261e602080952dff521266)(「L2スイッチを作ろう」と同じリポジトリです)
    - テキスト: [8章 "OpenFlow1.3版ラーニングスイッチ"](http://yasuhito.github.io/trema-book/#learning_switch13)
 3. OpenFlow 1.3 プロトコル詳細
    - [スライド](http://handai-trema.github.io/deck/week3/open_flow13.pdf)
