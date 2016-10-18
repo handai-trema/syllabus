@@ -117,6 +117,7 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
 
 1. パッチパネルを作ろう
    - [スライド](http://handai-trema.github.io/deck/week3/patch_panel.pdf)
+   - 課題: [パッチパネルの機能拡張](https://github.com/handai-trema/deck/blob/develop/week3/assignment_patch_panel.md)
    - テキスト: [6章 "インテリジェントなパッチパネル"](http://yasuhito.github.io/trema-book/#patch_panel)
 2. OpenFlow 1.3 版 L2 スイッチを作ろう
    - [スライド](http://handai-trema.github.io/deck/week3/learning_switch13.pdf)
