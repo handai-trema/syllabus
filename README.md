@@ -113,7 +113,12 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
 
 ## 第3回 (10/19)
 
-(準備中)
+次週から始まる実機 OpenFlow スイッチを使った演習に向けて、物理ネットワークで便利に使える実用的なコントローラを実装しましょう。
+
+まずは高価なネットワーク機器「インテリジェント・パッチパネル」の簡易版を OpenFlow で作ります。基本的な FlowMod メッセージと Trema のコマンドラインインタフェースを組み合わせることで、プログラミングだけで実用性の高い機器を作れます。
+
+そして、最も普及している OpenFlow バージョン 1.3 の基本を学びます。OpenFlow 1.0 で明らかになっている欠点と OpenFlow 1.3 での解決方法を理解しましょう。ここで習得した OpenFlow 1.3 の知識は後半のルータ実装に使います。
+
 
 1. パッチパネルを作ろう
    - [スライド](http://handai-trema.github.io/deck/week3/patch_panel.pdf)
@@ -125,6 +130,6 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
    - 課題: [マルチプルテーブルを読む](https://github.com/handai-trema/deck/blob/develop/week3/assignment_learning_switch13.md)
    - [課題用リポジトリ](https://classroom.github.com/assignment-invitations/12547fca10261e602080952dff521266)(「L2スイッチを作ろう」と同じリポジトリです)
    - テキスト: [8章 "OpenFlow1.3版ラーニングスイッチ"](http://yasuhito.github.io/trema-book/#learning_switch13)
-3. OpenFlow 1.3 プロトコル詳細
+3. OpenFlow 1.3 プロトコル入門
    - [スライド](http://handai-trema.github.io/deck/week3/open_flow13.pdf)
    - テキスト: [2章 "OpenFlow の仕様"](http://yasuhito.github.io/trema-book/#openflow_spec)
