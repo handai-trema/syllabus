@@ -95,18 +95,23 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
 最後に、一般的な L2 スイッチを OpenFlow で実装する方法を学びます。L2 スイッチの仕組みと OpenFlow での実装方法が分かれば、これをベースに改造することでより複雑な OpenFlow アプリケーションを作れるようになるでしょう。
 
 1. OpenFlow プロトコル入門
-   - [スライド](http://handai-trema.github.io/deck/week2/open_flow.pdf) [Slide (English)](https://github.com/handai-trema/deck/raw/develop/week2/open_flow_english.pdf)
+   - [スライド](http://handai-trema.github.io/deck/week2/open_flow.pdf)
+   - [Slide (English)](https://github.com/handai-trema/deck/raw/develop/week2/open_flow_english.pdf)
    - テキスト: [1章 "OpenFlow の仕組み"](http://yasuhito.github.io/trema-book/#how_does_openflow_work)
 
 2. cbench: Packet In と Flow Mod メッセージを使ってみよう
    - [スライド](http://handai-trema.github.io/deck/week2/cbench.pdf)
-   - 課題: [Cbenchの高速化](https://github.com/handai-trema/deck/blob/develop/week2/assignment_cbench.md) [Accelerating Cbench](https://github.com/handai-trema/deck/blob/develop/week2/assignment_cbench_english.md)
+   - [Slide](http://handai-trema.github.io/deck/week2/cbench_english.pdf)
+   - 課題: [Cbenchの高速化](https://github.com/handai-trema/deck/blob/develop/week2/assignment_cbench.md)
+   - Assignment: [Accelerating Cbench](https://github.com/handai-trema/deck/blob/develop/week2/assignment_cbench_english.md)
    - [課題用リポジトリ](https://classroom.github.com/assignment-invitations/d8e5b9494f8c31c2de889464b6ab4038)
    - テキスト: [5章 "マイクロベンチマークCbench"](http://yasuhito.github.io/trema-book/#cbench)
 
 3. L2スイッチを作ろう
    - [スライド](http://handai-trema.github.io/deck/week2/learning_switch.pdf)
-   - 課題: [複数スイッチ対応](https://github.com/handai-trema/deck/blob/develop/week2/assignment_learning_switch.md) [Multi-Learning Switch](https://github.com/handai-trema/deck/blob/develop/week2/assignment_learning_switch_english.md)
+   - [Slide](http://handai-trema.github.io/deck/week2/learning_switch_english.pdf)
+   - 課題: [複数スイッチ対応](https://github.com/handai-trema/deck/blob/develop/week2/assignment_learning_switch.md)
+   - Assignment: [Multi-Learning Switch](https://github.com/handai-trema/deck/blob/develop/week2/assignment_learning_switch_english.md)
    - [課題用リポジトリ](https://classroom.github.com/assignment-invitations/12547fca10261e602080952dff521266)
    - テキスト: [7章 "すべての基本、ラーニングスイッチ"](http://yasuhito.github.io/trema-book/#learning_switch)
 
@@ -123,11 +128,13 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
 1. パッチパネルを作ろう
    - [スライド](http://handai-trema.github.io/deck/week3/patch_panel.pdf)
    - 課題: [パッチパネルの機能拡張](https://github.com/handai-trema/deck/blob/develop/week3/assignment_patch_panel.md)
+   - Assignment: [Extending Patch Panel](https://github.com/handai-trema/deck/blob/develop/week3/assignment_patch_panel_english.md)
    - [課題用リポジトリ](https://classroom.github.com/assignment-invitations/bbb97d7a62c248e391ab75fef095402c)
    - テキスト: [6章 "インテリジェントなパッチパネル"](http://yasuhito.github.io/trema-book/#patch_panel)
 2. OpenFlow 1.3 版 L2 スイッチを作ろう
    - [スライド](http://handai-trema.github.io/deck/week3/learning_switch13.pdf)
    - 課題: [マルチプルテーブルを読む](https://github.com/handai-trema/deck/blob/develop/week3/assignment_learning_switch13.md)
+   - Assignment: [Inspecting Multiple Tables](https://github.com/handai-trema/deck/blob/develop/week3/assignment_learning_switch13_english.md)
    - [課題用リポジトリ](https://classroom.github.com/assignment-invitations/12547fca10261e602080952dff521266)(「L2スイッチを作ろう」と同じリポジトリです)
    - テキスト: [8章 "OpenFlow1.3版ラーニングスイッチ"](http://yasuhito.github.io/trema-book/#learning_switch13)
 3. OpenFlow 1.3 プロトコル入門
