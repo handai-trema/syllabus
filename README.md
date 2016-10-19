@@ -96,7 +96,7 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
 
 1. OpenFlow プロトコル入門
    - [スライド](http://handai-trema.github.io/deck/week2/open_flow.pdf)
-   - [Slide (English)](https://github.com/handai-trema/deck/raw/develop/week2/open_flow_english.pdf)
+   - [Slide](https://github.com/handai-trema/deck/raw/develop/week2/open_flow_english.pdf)
    - テキスト: [1章 "OpenFlow の仕組み"](http://yasuhito.github.io/trema-book/#how_does_openflow_work)
 
 2. cbench: Packet In と Flow Mod メッセージを使ってみよう
@@ -127,16 +127,19 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
 
 1. パッチパネルを作ろう
    - [スライド](http://handai-trema.github.io/deck/week3/patch_panel.pdf)
+   - [Slide](https://github.com/handai-trema/deck/raw/develop/week3/patch_panel_english.pdf)
    - 課題: [パッチパネルの機能拡張](https://github.com/handai-trema/deck/blob/develop/week3/assignment_patch_panel.md)
    - Assignment: [Extending Patch Panel](https://github.com/handai-trema/deck/blob/develop/week3/assignment_patch_panel_english.md)
    - [課題用リポジトリ](https://classroom.github.com/assignment-invitations/bbb97d7a62c248e391ab75fef095402c)
    - テキスト: [6章 "インテリジェントなパッチパネル"](http://yasuhito.github.io/trema-book/#patch_panel)
 2. OpenFlow 1.3 版 L2 スイッチを作ろう
    - [スライド](http://handai-trema.github.io/deck/week3/learning_switch13.pdf)
+   - [Slide](https://github.com/handai-trema/deck/raw/develop/week3/learning_switch13_english.pdf)
    - 課題: [マルチプルテーブルを読む](https://github.com/handai-trema/deck/blob/develop/week3/assignment_learning_switch13.md)
    - Assignment: [Inspecting Multiple Tables](https://github.com/handai-trema/deck/blob/develop/week3/assignment_learning_switch13_english.md)
    - [課題用リポジトリ](https://classroom.github.com/assignment-invitations/12547fca10261e602080952dff521266)(「L2スイッチを作ろう」と同じリポジトリです)
    - テキスト: [8章 "OpenFlow1.3版ラーニングスイッチ"](http://yasuhito.github.io/trema-book/#learning_switch13)
 3. OpenFlow 1.3 プロトコル入門
    - [スライド](http://handai-trema.github.io/deck/week3/open_flow13.pdf)
+   - [Slide](https://github.com/handai-trema/deck/raw/develop/week3/open_flow13_english.pdf)
    - テキスト: [2章 "OpenFlow の仕様"](http://yasuhito.github.io/trema-book/#openflow_spec)
