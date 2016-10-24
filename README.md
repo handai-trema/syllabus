@@ -143,3 +143,14 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
    - [スライド](http://handai-trema.github.io/deck/week3/open_flow13.pdf)
    - [Slide](https://github.com/handai-trema/deck/raw/develop/week3/open_flow13_english.pdf)
    - テキスト: [2章 "OpenFlow の仕様"](http://yasuhito.github.io/trema-book/#openflow_spec)
+   
+   
+## 第4回 (10/26)
+
+今回は実機演習です。今までは作ったコントローラをソフトウェアスイッチと接続してきましたが、今回は実機の OpenFlow スイッチに接続し動作させます。
+
+まずは実機 OpenFlow スイッチの操作方法や仮想スイッチとの違いを説明します。また Trema で作ったコントローラと接続するための設定を行います。 
+ 
+そして、いよいよ実機 OpenFlow スイッチをインテリジェント・パッチパネルとして動作させます。先週作成した「インテリジェント・パッチパネル」コントローラとの接続に挑戦することで、実機 OpenFlow スイッチの扱いやトラブルシュートに慣れましょう。
+
+(準備中)
