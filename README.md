@@ -166,7 +166,7 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
 (準備中)
 
 1. ルータを作ろう (前編)
-   - [課題用リポジトリ](https://classroom.github.com/group-assignment-invitations/179402a9c81a7794ff37d70b45862cf8)
+   - [課題用リポジトリ](https://classroom.github.com/assignment-invitations/7463a3fb27a0e49d93f202b2f4e3a748)
 
 
 ## 第6回 (11/9)
