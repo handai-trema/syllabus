@@ -163,8 +163,6 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
 
 後半ではルータが持つ重要な機能であるルーティングテーブルの詳細を見ていきましょう。ルータは実に巧妙な仕組みで転送先の情報を管理します。
 
-(準備中)
-
 1. ルータを作ろう (前編)
    - [スライド](http://handai-trema.github.io/deck/week5/simple_router1.pdf)
    - テキスト: [12章 "ルータ (前編)"](http://yasuhito.github.io/trema-book/#router_part1)
