@@ -167,8 +167,10 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
 
 1. ルータを作ろう (前編)
    - [スライド](http://handai-trema.github.io/deck/week5/simple_router1.pdf)
+   - テキスト: [12章 "ルータ (前編)"](http://yasuhito.github.io/trema-book/#router_part1)
 2. ルータを作ろう (後編)
    - [スライド](http://handai-trema.github.io/deck/week5/simple_router2.pdf)
+   - テキスト: [13章 "ルータ (後編)"](http://yasuhito.github.io/trema-book/#router_part2)
    - [課題用リポジトリ](https://classroom.github.com/assignment-invitations/7463a3fb27a0e49d93f202b2f4e3a748)
    - 課題: [ルータのCLIを作ろう](https://github.com/handai-trema/deck/blob/develop/week5/assignment_simple_router.md)
 
