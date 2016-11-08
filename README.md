@@ -165,27 +165,30 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
 
 1. ルータを作ろう (前編)
    - [スライド](http://handai-trema.github.io/deck/week5/simple_router1.pdf)
-   - [Slice](http://handai-trema.github.io/deck/week5/simple_router1_english.pdf)
+   - [Slide](http://handai-trema.github.io/deck/week5/simple_router1_english.pdf)
    - テキスト: [12章 "ルータ (前編)"](http://yasuhito.github.io/trema-book/#router_part1)
 2. ルータを作ろう (後編)
    - [スライド](http://handai-trema.github.io/deck/week5/simple_router2.pdf)
    - テキスト: [13章 "ルータ (後編)"](http://yasuhito.github.io/trema-book/#router_part2)
    - [課題用リポジトリ](https://classroom.github.com/assignment-invitations/7463a3fb27a0e49d93f202b2f4e3a748)
    - 課題: [ルータのCLIを作ろう](https://github.com/handai-trema/deck/blob/develop/week5/assignment_simple_router.md)
-   - Assignment: [Develop a CLI for a Router)](https://github.com/handai-trema/deck/blob/develop/week5/assignment_simple_router_english.md)
+   - Assignment: [Develop a CLI for a Router](https://github.com/handai-trema/deck/blob/develop/week5/assignment_simple_router_english.md)
 
 
 ## 第6回 (11/9)
 
-OpenFlow 1.0 で実装したルータを OpenFlow 1.3 で実装しましょう。OpenFlow1.3 の新機能とマルチプルテーブルを使えば、ARP 応答などルータの機能の大部分をフローテーブルとして実装できます。つまり大部分のパケットをフローテーブルだけで処理できるので、コントローラへの PacketIn を大幅に削減しスループットを向上できます。
+データセンターのような大規模ネットワークを制御する前準備として、ネットワークトポロジを OpenFlow で検出してみましょう。OpenFlow ではコントローラがトポロジ情報を管理します。ネットワーク全体を集中管理するコントローラがトポロジも把握することで、パケットを思いのままに転送できます。
 
 (準備中)
+
+1. ネットワークトポロジを検出しよう
+   - [スライド](http://handai-trema.github.io/deck/week5/simple_router1.pdf)
+   - テキスト: [15章 "ネットワークトポロジを検出する"](http://yasuhito.github.io/trema-book/#topology)
 
 
 ## 第7回 (11/16)
 
-データセンターのような大規模ネットワークを制御する前準備として、ネットワークトポロジを OpenFlow で検出してみましょう。OpenFlow ではコントローラがトポロジ情報を管理します。ネットワーク全体を集中管理するコントローラがトポロジも把握することで、パケットを思いのままに転送できます。
 
-そして検出したトポロジ情報を使って、たくさんのスイッチを連携させてみましょう。たくさんの OpenFlow スイッチがつながった環境では、パケットを目的地まで転送するためにスイッチを連携させる必要があります。複数の OpenFlow スイッチを連携し、1 台の大きな仮想スイッチとして扱う方法を見て行きましょう。
+出したトポロジ情報を使って、たくさんのスイッチを連携させてみましょう。たくさんの OpenFlow スイッチがつながった環境では、パケットを目的地まで転送するためにスイッチを連携させる必要があります。複数の OpenFlow スイッチを連携し、1 台の大きな仮想スイッチとして扱う方法を見て行きましょう。
 
 (準備中)
