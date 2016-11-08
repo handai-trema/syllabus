@@ -182,7 +182,7 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
 (準備中)
 
 1. ネットワークトポロジを検出しよう
-   - [スライド](http://handai-trema.github.io/deck/week5/simple_router1.pdf)
+   - [スライド](http://handai-trema.github.io/deck/week6/topology.pdf)
    - テキスト: [15章 "ネットワークトポロジを検出する"](http://yasuhito.github.io/trema-book/#topology)
 
 
