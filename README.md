@@ -182,9 +182,12 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
 
 1. ネットワークトポロジを検出しよう
    - [スライド](http://handai-trema.github.io/deck/week6/topology.pdf)
+   - [Slide](http://handai-trema.github.io/deck/week6/topology_english.pdf)
    - テキスト: [15章 "ネットワークトポロジを検出する"](http://yasuhito.github.io/trema-book/#topology)
    - グループ課題1: [実機でトポロジを動かそう](https://github.com/handai-trema/deck/blob/develop/week6/assignment1_topology.md)
+   - Assignment 1: [Run "Topology" on a physical switch](https://github.com/handai-trema/deck/blob/develop/week6/assignment_topology.md)
    - グループ課題2: [トポロジコントローラの拡張](https://github.com/handai-trema/deck/blob/develop/week6/assignment2_topology.md)
+   - Assignment 2: [Extending "Topology"](https://github.com/handai-trema/deck/blob/develop/week6/assignment2_topology_english.md)
    - [グループ課題用リポジトリ](https://classroom.github.com/group-assignment-invitations/edf6cbbe9843c977d228bde7a62a98d1)
 
 
