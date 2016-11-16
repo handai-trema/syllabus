@@ -198,6 +198,8 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
 
 1. たくさんのスイッチを制御する
    - [スライド](http://handai-trema.github.io/deck/week7/routing_switch.pdf)
+   - [Slide](http://handai-trema.github.io/deck/week7/routing_switch_english.pdf)
    - テキスト: [16章 "たくさんのスイッチを制御する"](http://yasuhito.github.io/trema-book/#routing_switch)
    - グループ課題: [経路選択アルゴリズムの実装と可視化](https://github.com/handai-trema/deck/blob/develop/week7/assignment_routing_switch.md)
+   - Assignment: [Implementing a routing algorithm and a visualization function](https://github.com/handai-trema/deck/blob/develop/week7/assignment_routing_switch_english.md)
    - [グループ課題用リポジトリ](https://classroom.github.com/group-assignment-invitations/2064a701edd70e52302d5bcf21def7a6)
