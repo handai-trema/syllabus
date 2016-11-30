@@ -193,7 +193,6 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
 
 ## 第7回 (11/16)
 
-
 検出したトポロジ情報を使って、たくさんのスイッチを連携させてみましょう。たくさんの OpenFlow スイッチがつながった環境では、パケットを目的地まで転送するためにスイッチを連携させる必要があります。複数の OpenFlow スイッチを連携し、1 台の大きな仮想スイッチとして扱う方法を見て行きましょう。
 
 1. たくさんのスイッチを制御する
@@ -203,3 +202,14 @@ OpenFlow や Trema の概要がわかったところで、もう少し細かい�
    - グループ課題: [経路選択アルゴリズムの実装と可視化](https://github.com/handai-trema/deck/blob/develop/week7/assignment_routing_switch.md)
    - Assignment: [Implementing a routing algorithm and a visualization function](https://github.com/handai-trema/deck/blob/develop/week7/assignment_routing_switch_english.md)
    - [グループ課題用リポジトリ](https://classroom.github.com/group-assignment-invitations/2064a701edd70e52302d5bcf21def7a6)
+
+
+## 第8回 (11/30)
+
+IaaS (Infrastructure as a Service) の構築に必要な仮想ネットワークを OpenFlow で実現しましょう。前回解説したルーティングスイッチの応用です。
+
+1. 仮想ネットワーク (スライス機能)
+   - [スライド](http://handai-trema.github.io/deck/week8/sliceable_switch.pdf)
+   - テキスト: [17章 "ネットワークを仮想化する"](http://yasuhito.github.io/trema-book/#sliceable_switch)
+   - グループ課題: [スライス機能の拡張](https://github.com/handai-trema/deck/blob/develop/week8/assignment_sliceable_switch.md)
+   - [グループ課題用リポジトリ](https://classroom.github.com/group-assignment-invitations/c471116bfa738709e58f8251a5948b42)
