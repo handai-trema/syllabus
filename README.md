@@ -210,8 +210,10 @@ IaaS (Infrastructure as a Service) の構築に必要な仮想ネットワーク
 
 1. 仮想ネットワーク (スライス機能)
    - [スライド](http://handai-trema.github.io/deck/week8/sliceable_switch.pdf)
+   - [Slide](http://handai-trema.github.io/deck/week8/sliceable_switch_english.pdf)
    - テキスト: [17章 "ネットワークを仮想化する"](http://yasuhito.github.io/trema-book/#sliceable_switch)
    - グループ課題: [スライス機能の拡張](https://github.com/handai-trema/deck/blob/develop/week8/assignment_sliceable_switch.md)
+   - Assignment: [Extending the slice function](https://github.com/handai-trema/deck/blob/develop/week8/assignment_sliceable_switch_english.md)
    - [グループ課題用リポジトリ](https://classroom.github.com/group-assignment-invitations/c471116bfa738709e58f8251a5948b42)
 
 
